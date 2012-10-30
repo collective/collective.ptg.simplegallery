@@ -15,9 +15,9 @@
                 tal:attributes="src image"  
             >
   
-            <h3 class="image-title" tal:content="img/title" tal:condition="view.settings.simplegallery_showtitle">Title</h3> 
+            <h3 class="image-title" tal:content="img/title" tal:condition="view/settings/simplegallery_showtitle">Title</h3> 
             <p class="image-desc" 
-               tal:content="structure img/description" tal:condition="view.settings.simplegallery_showdescription">Description</p> 
+               tal:content="structure img/description" tal:condition="view7settings/simplegallery_showdescription">Description</p> 
         </a>
         </div>  
     </div>     
