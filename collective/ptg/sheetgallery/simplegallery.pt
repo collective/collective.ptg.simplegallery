@@ -8,12 +8,13 @@
             tal:attributes="class theclass;">
  
         <div class="imagebox"> 
-        <img src="" tal:define="image python: view.settings.simplegallery_use_icons and 
-            thethumb or
-            theimage" 
-            tal:attributes="src image"  
+        <a href="" tal:attributes="href img/link" >    
+            <img src="" tal:define="image python: view.settings.simplegallery_use_icons and 
+                thethumb or
+                theimage" 
+                tal:attributes="src image"  
             >
-            <a href="" tal:attributes="href img/link" >      
+  
             <h3 class="image-title" tal:content="img/title">Title</h3> 
             <p class="image-desc" 
                tal:content="structure img/description">Description</p> 
