@@ -85,7 +85,7 @@ msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:41
 #. Default: "Height of (each) box"
-msgid "label_simplegallery_boxwidth"
+msgid "label_simplegallery_boxheight"
 msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:46

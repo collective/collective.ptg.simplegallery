@@ -38,12 +38,12 @@ msgstr "Antall bilder før en ny rad (skriv et høyt nr hvis du ikke ønsker det
 #. Default: "Width of (each) box (when mouse hovers)"
 #: collective.ptg.simplegallery:/__init__.py:19
 msgid "label_simplegallery_boxwidth"
-msgstr "Bredde på hvert bilde."
+msgstr "Bredde på hver boks."
 
 #. Default: "Height of (each) box"
 #: collective.ptg.simplegallery:/__init__.py:24
-msgid "label_simplegallery_boxwidth"
-msgstr "Høyde på hvert bilde"
+msgid "label_simplegallery_boxheight"
+msgstr "Høyde på hver boks"
 
 #. Default: "Use Thumbnail size instead of Size"
 #: collective.ptg.simplegallery:/__init__.py:29
