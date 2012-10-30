@@ -30,17 +30,17 @@ msgstr ""
 msgid "label_simplegallery_display_type"
 msgstr ""
 
-#. Default: "Number of images before a forced new row (use a high number if you dont want this)"
+#. Default: "Number of boxs before a forced new row (use a high number if you dont want this)"
 #: collective.ptg.simplegallery:/__init__.py:13
 msgid "label_simplegallery_columns"
 msgstr "Antall bilder før en ny rad (skriv et høyt nr hvis du ikke ønsker dette)"
 
-#. Default: "Width of (each) image (when mouse hovers)"
+#. Default: "Width of (each) box (when mouse hovers)"
 #: collective.ptg.simplegallery:/__init__.py:19
-msgid "label_simplegallery_imagewidth"
+msgid "label_simplegallery_boxwidth"
 msgstr "Bredde på hvert bilde."
 
-#. Default: "Height of (each) image"
+#. Default: "Height of (each) box"
 #: collective.ptg.simplegallery:/__init__.py:24
 msgid "label_simplegallery_boxwidth"
 msgstr "Høyde på hvert bilde"
@@ -110,12 +110,12 @@ msgstr "0.9 Nesten ingenting"
 msgid "label_simplegallery_overlay_opacity10"
 msgstr "1 Av"
 
-#. Default: "Padding above imagetitle"
+#. Default: "Padding above boxtitle"
 #: collective.ptg.simplegallery:/__init__.py:70
 msgid "label_simplegallery_toppadding"
 msgstr "Padding over bildenes titler"
 
-#. Default: "Padding below imagedescription"
+#. Default: "Padding below boxdescription"
 #: collective.ptg.simplegallery:/__init__.py:74
 msgid "label_simplegallery_bottompadding"
 msgstr "Padding under bildets beskrivelse"

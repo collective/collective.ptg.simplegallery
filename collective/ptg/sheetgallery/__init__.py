@@ -84,7 +84,7 @@ class SimplegalleryDisplayType(BatchingDisplayType):
 """ % {
         'columns': self.settings.simplegallery_columns,
         'boxwidth': self.settings.simplegallery_boxwidth,
-        'imagewidth': self.settings.simplegallery_imagewidth,
+        'boxheight': self.settings.simplegallery_boxheight,
         'style': style
        }
 SimplegallerySettings = createSettingsFactory(SimplegalleryDisplayType.schema)

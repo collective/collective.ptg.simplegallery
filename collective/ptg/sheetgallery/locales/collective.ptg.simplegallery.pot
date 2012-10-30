@@ -49,7 +49,7 @@ msgid "label_simplegallery_display_type"
 msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:13
-#. Default: "Number of images before a forced new row (use a high number if you dont want this)"
+#. Default: "Number of boxs before a forced new row (use a high number if you dont want this)"
 msgid "label_simplegallery_columns"
 msgstr ""
 
@@ -79,12 +79,12 @@ msgid "label_simplegallery_effectcount4"
 msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:36
-#. Default: "Width of (each) image"
-msgid "label_simplegallery_imagewidth"
+#. Default: "Width of (each) box"
+msgid "label_simplegallery_boxwidth"
 msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:41
-#. Default: "Height of (each) image"
+#. Default: "Height of (each) box"
 msgid "label_simplegallery_boxwidth"
 msgstr ""
 
