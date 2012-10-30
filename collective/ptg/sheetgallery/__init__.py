@@ -29,7 +29,14 @@ class ISimplegalleryDisplaySettings(IBaseSettings):
         title=_(u"label_simplegallery_use_icons",
             default=u"Use Thumbnail size instead of Size"),
         default=False)
-   
+    simplegallery_showtitle = schema.Bool(
+        title=_(u"label_simplegallery_showtitle",
+            default=u"Show the title?"),
+        default=True)
+    simplegallery_showdescription = schema.Bool(
+        title=_(u"label_simplegallery_showdescription",
+            default=u"Show the the description?"),
+        default=True)
     simplegallery_style = schema.Choice(
         title=_(u"label_simplegallery_style",
                 default=u"What stylesheet (css file) to use"),
