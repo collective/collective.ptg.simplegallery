@@ -31,7 +31,7 @@
 }
 
 
-h3.image-title{
+.simplegallery h3.image-title{
 	color:  #333;
 	font-style: normal;
 	font-weight: normal;
@@ -40,7 +40,7 @@ h3.image-title{
 }
 
  
-p.image-desc {
+.simplegallery p.image-desc {
 	padding: 0px 5% 25% 5% ;
 	color: #333;
 	font-style: normal ;
