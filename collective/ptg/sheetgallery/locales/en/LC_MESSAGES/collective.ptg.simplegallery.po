@@ -37,13 +37,13 @@ msgstr "label_simplegallery_columns"
 
 #. Default: "Width of (each) image (when mouse hovers)"
 #: collective.ptg.simplegallery:/__init__.py:19
-msgid "label_simplegallery_boxwidth"
+msgid "label_simplegallery_imagewidth"
 msgstr "Width of (each) image"
 
 #. Default: "Height of (each) image"
 #: collective.ptg.simplegallery:/__init__.py:24
-msgid "label_simplegallery_boxheight"
-msgstr "label_simplegallery_boxheight"
+msgid "label_simplegallery_boxwidth"
+msgstr "label_simplegallery_boxwidth"
 
 #. Default: "Use Thumbnail size instead of Size"
 #: collective.ptg.simplegallery:/__init__.py:29

@@ -11,18 +11,18 @@ _ = MessageFactory('collective.ptg.simplegallery')
 class ISimplegalleryDisplaySettings(IBaseSettings):
     simplegallery_columns = schema.Int(
         title=_(u"label_simplegallery_columns",
-            default=u"Number of images before a forced new row (use a high "
+            default=u"Number of boxes before a forced new row (use a high "
                     u"number if you dont want this)"),
         default=3,
         min=1)
     simplegallery_boxwidth = schema.Int(
         title=_(u"label_simplegallery_boxwidth",
-            default=u"Width of (each) image"),
+            default=u"Width of (each) box"),
         default=400,
         min=50)
     simplegallery_boxheight = schema.Int(
         title=_(u"label_simplegallery_boxheight",
-            default=u"Height of (each) image"),
+            default=u"Height of (each) box"),
         default=260,
         min=50)
     simplegallery_use_icons = schema.Bool(
@@ -83,8 +83,8 @@ class SimplegalleryDisplayType(BatchingDisplayType):
 <link rel="stylesheet" type="text/css" href="%(style)s"/>
 """ % {
         'columns': self.settings.simplegallery_columns,
-        'boxheight': self.settings.simplegallery_boxheight,
         'boxwidth': self.settings.simplegallery_boxwidth,
+        'imagewidth': self.settings.simplegallery_imagewidth,
         'style': style
        }
 SimplegallerySettings = createSettingsFactory(SimplegalleryDisplayType.schema)

@@ -80,12 +80,12 @@ msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:36
 #. Default: "Width of (each) image"
-msgid "label_simplegallery_boxwidth"
+msgid "label_simplegallery_imagewidth"
 msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:41
 #. Default: "Height of (each) image"
-msgid "label_simplegallery_boxheight"
+msgid "label_simplegallery_boxwidth"
 msgstr ""
 
 #: collective.ptg.simplegallery:/__init__.py:46
