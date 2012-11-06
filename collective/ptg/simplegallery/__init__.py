@@ -37,6 +37,10 @@ class ISimplegalleryDisplaySettings(IBaseSettings):
         title=_(u"label_simplegallery_showdescription",
             default=u"Show the the description?"),
         default=True)
+    simplegallery_linkable = schema.Bool(
+        title=_(u"label_simplegallery_linkable",
+            default=u"Should the user go to the image he clicks on?"),
+        default=True)
     simplegallery_style = schema.Choice(
         title=_(u"label_simplegallery_style",
                 default=u"What stylesheet (css file) to use"),

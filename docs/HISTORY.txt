@@ -4,6 +4,11 @@ Changelog
 0.5.1 (2012-11-06)
 -------------------
 
+- Added setting "linkable"
+
+0.5.1 (2012-11-06)
+-------------------
+
 - Added copyright field
 
 
