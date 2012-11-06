@@ -1,7 +1,13 @@
 Changelog
 =========
 
-0.3 (2012-11-05)
+0.5.1 (2012-11-06)
+-------------------
+
+- Added copyright field
+
+
+0.5 (2012-11-05)
 -------------------
 
 - Added option to show bodytext
