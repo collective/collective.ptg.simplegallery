@@ -39,7 +39,7 @@ class ISimplegalleryDisplaySettings(IBaseSettings):
         default=True)
     simplegallery_linkable = schema.Bool(
         title=_(u"label_simplegallery_linkable",
-            default=u"Should the user go to the image he clicks on?"),
+            default=u"Should the user go to the image he/she clicks on?"),
         default=True)
     simplegallery_style = schema.Choice(
         title=_(u"label_simplegallery_style",
