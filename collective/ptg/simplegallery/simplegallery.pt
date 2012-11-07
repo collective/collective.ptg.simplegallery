@@ -8,7 +8,7 @@
             tal:attributes="class theclass;">
  
         <div class="imagebox"> 
-          <a href="" tal:define="link img/link; imagelink python: view.settings.viewurl and 
+          <a href="" tal:define="link img/link; imagelink python: view.settings.simplegallery_viewurl and 
                 link + '/view' or
                 link" 
                 tal:attributes="href imagelink" tal:omit-tag="not:view/settings/simplegallery_linkable" >    
