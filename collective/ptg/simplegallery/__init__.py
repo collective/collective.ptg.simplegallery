@@ -41,6 +41,10 @@ class ISimplegalleryDisplaySettings(IBaseSettings):
         title=_(u"label_simplegallery_linkable",
             default=u"Should the user go to the image he/she clicks on?"),
         default=True)
+    simplegallery_viewurl = schema.Bool(
+        title=_(u"label_simplegallery_viewurl",
+            default=u"Add '/view' to image link url"),
+        default=False)
     simplegallery_style = schema.Choice(
         title=_(u"label_simplegallery_style",
                 default=u"What stylesheet (css file) to use"),
